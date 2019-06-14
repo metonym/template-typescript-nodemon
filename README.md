@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/metonym/template-typescript.svg?token=WM4sWTyTsYsN8hUSbhzn&branch=master)](https://travis-ci.com/metonym/template-typescript)
 
-> Base template for TypeScript projects
+> Base template for TypeScript projects using nodemon.
 
 This project provides basic scaffolding for developing and building TypeScript libraries.
 
