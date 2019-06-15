@@ -1,7 +1,3 @@
 {
-  "extends": ["tslint:latest", "tslint-config-prettier"],
-  "rules": {},
-  "linterOptions": {
-    "exclude": ["node_modules/**", "lib/**"]
-  }
+  "extends": ["tslint:latest", "tslint-config-prettier"]
 }
