@@ -1,6 +1,6 @@
-# template-typescript
+# template-typescript-nodemon
 
-[![Build Status](https://travis-ci.com/metonym/template-typescript.svg?token=WM4sWTyTsYsN8hUSbhzn&branch=master)](https://travis-ci.com/metonym/template-typescript)
+[![Build Status](https://travis-ci.com/metonym/template-typescript-nodemon.svg?token=WM4sWTyTsYsN8hUSbhzn&branch=master)](https://travis-ci.com/metonym/template-typescript-nodemon)
 
 > Base template for TypeScript projects using nodemon.
 
