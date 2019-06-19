@@ -8,7 +8,7 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "develop": "nodemon",
-    "build": "rm -rf dist && tsc",
+    "build": "rm -rf dist && tsc -p tsconfig.prod.json",
     "test": "jest",
     "lint": "tslint --fix -p . -c tslint.json"
   },
