@@ -9,7 +9,7 @@
   "scripts": {
     "develop": "nodemon",
     "build": "rm -rf dist && tsc -p tsconfig.prod.json",
-    "test": "jest",
+    "test": "jest --coverage",
     "lint": "tslint --fix -p . -c tslint.json"
   },
   "devDependencies": {
