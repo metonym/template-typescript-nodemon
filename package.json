@@ -1,5 +1,5 @@
 {
-  "name": "template-typescript",
+  "name": "template-typescript-nodemon",
   "version": "0.1.0",
   "license": "MIT",
   "description": "Base template for TypeScript projects using nodemon",
