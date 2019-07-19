@@ -42,6 +42,11 @@
     "preset": "ts-jest",
     "testEnvironment": "node"
   },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
   "resolutions": {
     "**/**/set-value": "^3.0.1",
     "**/**/lodash": "^4.17.12",
