@@ -1,3 +1,8 @@
+const enum Mode {
+  dev = 'dev',
+  prod = 'prod'
+}
+
 class Template {
   constructor(props: ITemplateProps) {
     if (props.mode === Mode.dev) {
@@ -7,14 +12,9 @@ class Template {
   }
 }
 
-interface ITemplateProps {
+export interface ITemplateProps {
   mode: Mode;
 }
 
-const enum Mode {
-  dev = 'dev',
-  prod = 'prod'
-}
-
 export default Template;
-export { ITemplateProps, Mode };
+export { Mode };
