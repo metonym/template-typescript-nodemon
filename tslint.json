@@ -1,4 +1,3 @@
 {
-  "extends": ["tslint:latest", "tslint-config-prettier"],
-  "linterOptions": { "exclude": ["./lib"] }
+  "extends": ["tslint:latest", "tslint-config-prettier"]
 }
