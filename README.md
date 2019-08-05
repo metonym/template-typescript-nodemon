@@ -1,8 +1,9 @@
 # template-typescript-nodemon
 
-[![Build Status](https://travis-ci.com/metonym/template-typescript-nodemon.svg?token=WM4sWTyTsYsN8hUSbhzn&branch=master)](https://travis-ci.com/metonym/template-typescript-nodemon)
+[![Build][build]][build-badge]
+[![Coverage][codecov-shield]][codecov]
 
-> Base template for TypeScript projects using nodemon.
+> Template for developing TypeScript projects with [nodemon](https://github.com/remy/nodemon).
 
 This project provides basic scaffolding for developing and building TypeScript libraries.
 
@@ -45,3 +46,8 @@ This template uses `Travis CI` to build and test remote changes.
 ## License
 
 [MIT](LICENSE)
+
+[build]: https://travis-ci.com/metonym/template-typescript-nodemon.svg?branch=master
+[build-badge]: https://travis-ci.com/metonym/template-typescript-nodemon
+[codecov]: https://codecov.io/gh/metonym/template-typescript-nodemon
+[codecov-shield]: https://img.shields.io/codecov/c/github/metonym/template-typescript-nodemon.svg
