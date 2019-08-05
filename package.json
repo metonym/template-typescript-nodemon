@@ -9,8 +9,8 @@
   "scripts": {
     "develop": "nodemon",
     "build": "rm -rf dist && tsc",
-    "test": "jest --coverage",
-    "lint": "tslint --fix -p . -c tslint.json"
+    "lint": "tslint --fix -p . -c tslint.json",
+    "test": "jest --coverage"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.1.0",
@@ -26,6 +26,16 @@
     "tslint": "^5.18.0",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.5.3"
+  },
+  "nodemonConfig": {
+    "exec": "ts-node ./src/index.ts",
+    "env": {
+      "NODE_ENV": "development"
+    },
+    "ext": "ts",
+    "watch": [
+      "./src"
+    ]
   },
   "husky": {
     "hooks": {
