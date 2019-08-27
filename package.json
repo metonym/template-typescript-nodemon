@@ -4,8 +4,8 @@
   "license": "MIT",
   "description": "Base template for TypeScript projects using nodemon",
   "author": "Eric Liu (https://github.com/metonym)",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "develop": "nodemon",
     "build": "rm -rf dist && tsc",
@@ -28,13 +28,13 @@
     "typescript": "^3.5.3"
   },
   "nodemonConfig": {
-    "exec": "ts-node ./src/index.ts",
+    "exec": "ts-node src/index.ts",
     "env": {
       "NODE_ENV": "development"
     },
     "ext": "ts",
     "watch": [
-      "./src"
+      "src"
     ]
   },
   "husky": {
