@@ -1,4 +1,4 @@
-const enum Mode {
+enum Mode {
   dev = 'dev',
   prod = 'prod'
 }
