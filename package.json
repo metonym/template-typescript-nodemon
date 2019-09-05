@@ -8,9 +8,10 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "develop": "nodemon",
-    "build": "rm -rf dist && tsc",
+    "build": "tsc",
     "lint": "tslint --fix -p . -c tslint.json",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "test:tdd": "jest --watch"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.1.0",
