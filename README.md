@@ -7,6 +7,23 @@
 
 This project provides basic scaffolding for developing and building TypeScript libraries.
 
+## Nodemon Config
+
+Modify the nodemon configuration in the `nodemonConfig` field in package.json. By default, the entry is `src/index.ts`. Only the `src/` folder is watched for changes.
+
+```json
+"nodemonConfig": {
+  "exec": "ts-node src/index.ts",
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ext": "ts",
+  "watch": [
+    "src"
+  ]
+}
+```
+
 ## Overview
 
 ### `yarn develop`
@@ -17,13 +34,13 @@ Runs the project in development mode and watches for any changes.
 
 Builds the project for production.
 
-```bash
-yarn build
-```
-
 ### `yarn test`
 
 Runs test suites and generates a coverage report.
+
+### `yarn test:tdd`
+
+Runs tests in Test-driven Development (TDD) mode.
 
 ## Linting, formatting and committing
 
