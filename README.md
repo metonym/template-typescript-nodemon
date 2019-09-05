@@ -3,37 +3,27 @@
 [![Build][build]][build-badge]
 [![Coverage][codecov-shield]][codecov]
 
-> Template for developing TypeScript projects with [nodemon](https://github.com/remy/nodemon).
+> Develop projects with [nodemon](https://github.com/remy/nodemon) and TypeScript.
 
 This project provides basic scaffolding for developing and building TypeScript libraries.
 
 ## Overview
 
-### Develop
+### `yarn develop`
 
-This command builds the project in watch mode. The source (i.e. entry) is in `src`, which is outputted in the designated folder `lib`.
+Runs the project in development mode and watches for any changes.
 
-The destination folder can be changed through the `outDir` value in `tsconfig.json`.
+### `yarn build`
 
-```bash
-yarn develop
-```
-
-### Build
-
-This command removes the `lib` folder and builds the project.
+Builds the project for production.
 
 ```bash
 yarn build
 ```
 
-### Test
+### `yarn test`
 
-This command runs tests located in the `tests` folder.
-
-```bash
-yarn test
-```
+Runs test suites and generates a coverage report.
 
 ## Linting, formatting and committing
 
