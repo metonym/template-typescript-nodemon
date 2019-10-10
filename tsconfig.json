@@ -1,11 +1,9 @@
 {
   "compilerOptions": {
-    "declaration": true,
     "lib": ["esnext"],
     "module": "commonjs",
     "moduleResolution": "node",
     "outDir": "dist",
-    "removeComments": true,
     "strict": true,
     "target": "es5"
   },
