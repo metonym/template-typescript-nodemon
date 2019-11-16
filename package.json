@@ -2,7 +2,7 @@
   "name": "template-typescript-nodemon",
   "version": "0.1.0",
   "license": "MIT",
-  "description": "Develop projects with nodemon and TypeScript",
+  "description": "Develop TypeScript projects using nodemon",
   "author": "Eric Liu (https://github.com/metonym)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
