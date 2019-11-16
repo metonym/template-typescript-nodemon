@@ -7,6 +7,21 @@
 
 This project provides basic scaffolding for developing and building TypeScript libraries using [nodemon](https://github.com/remy/nodemon) and [ts-node](https://github.com/TypeStrong/ts-node).
 
+## Getting Started
+
+Clone the template:
+
+```bash
+git clone git@github.com:metonym/template-typescript-nodemon.git
+cd template-typescript-nodemon
+```
+
+Install its dependencies:
+
+```bash
+yarn install
+```
+
 ## Available Scripts
 
 ### `yarn develop`
@@ -58,3 +73,7 @@ This template uses `Travis CI` to build and test remote changes.
 [build-badge]: https://travis-ci.com/metonym/template-typescript-nodemon
 [codecov]: https://codecov.io/gh/metonym/template-typescript-nodemon
 [codecov-shield]: https://img.shields.io/codecov/c/github/metonym/template-typescript-nodemon.svg
+
+```
+
+```
