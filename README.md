@@ -3,28 +3,11 @@
 [![Build][build]][build-badge]
 [![Coverage][codecov-shield]][codecov]
 
-> Develop projects with [nodemon](https://github.com/remy/nodemon) and TypeScript.
+> Develop TypeScript projects using [nodemon](https://github.com/remy/nodemon).
 
-This project provides basic scaffolding for developing and building TypeScript libraries.
+This project provides basic scaffolding for developing and building TypeScript libraries using [nodemon](https://github.com/remy/nodemon) and [ts-node](https://github.com/TypeStrong/ts-node).
 
-## Nodemon Config
-
-Modify the nodemon configuration in the `nodemonConfig` field in package.json. By default, the entry is `src/index.ts`. Only the `src/` folder is watched for changes.
-
-```json
-"nodemonConfig": {
-  "exec": "ts-node src/index.ts",
-  "env": {
-    "NODE_ENV": "development"
-  },
-  "ext": "ts",
-  "watch": [
-    "src"
-  ]
-}
-```
-
-## Overview
+## Available Scripts
 
 ### `yarn develop`
 
@@ -41,6 +24,23 @@ Runs test suites and generates a coverage report.
 ### `yarn test:tdd`
 
 Runs tests in Test-driven Development (TDD) mode.
+
+## Customizing Nodemon
+
+Modify the nodemon configuration in the `nodemonConfig` field in package.json. By default, the entry is `src/index.ts`. Only the `src/` folder is watched for changes.
+
+```json
+"nodemonConfig": {
+  "exec": "ts-node src/index.ts",
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ext": "ts",
+  "watch": [
+    "src"
+  ]
+}
+```
 
 ## Linting, formatting and committing
 
