@@ -30,7 +30,7 @@ Runs the project in development mode and watches for any changes.
 
 ### `yarn build`
 
-Builds the project for production.
+Builds the project for production. The build directory is `dist`; types will be written to `dist/index.d.ts`. Customize the build directory in the `outDir` configuration option in the [tsconfig.json](tsconfig.json).
 
 ### `yarn test`
 
@@ -42,7 +42,7 @@ Runs tests in Test-driven Development (TDD) mode.
 
 ## Customizing Nodemon
 
-Modify the nodemon configuration in the `nodemonConfig` field in package.json. By default, the entry is `src/index.ts`. Only the `src/` folder is watched for changes.
+Modify the nodemon configuration in the `nodemonConfig` field in package.json. By default, the entry is `src/index.ts`. Only files within the `src` folder are watched for changes.
 
 ```json
 "nodemonConfig": {
@@ -73,7 +73,3 @@ This template uses `Travis CI` to build and test remote changes.
 [build-badge]: https://travis-ci.com/metonym/template-typescript-nodemon
 [codecov]: https://codecov.io/gh/metonym/template-typescript-nodemon
 [codecov-shield]: https://img.shields.io/codecov/c/github/metonym/template-typescript-nodemon.svg
-
-```
-
-```
