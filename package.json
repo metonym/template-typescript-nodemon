@@ -9,7 +9,6 @@
   "scripts": {
     "develop": "nodemon",
     "build": "tsc",
-    "lint": "tslint --fix -p . -c tslint.json",
     "test": "jest --coverage",
     "test:tdd": "jest --watch"
   },
