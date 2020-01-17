@@ -9,16 +9,11 @@ This project provides basic scaffolding for developing and building TypeScript l
 
 ## Getting Started
 
-Clone the template:
+Clone the template and install its dependencies:
 
 ```bash
 git clone git@github.com:metonym/template-typescript-nodemon.git
 cd template-typescript-nodemon
-```
-
-Install its dependencies:
-
-```bash
 yarn install
 ```
 
