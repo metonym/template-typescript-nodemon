@@ -18,7 +18,7 @@
     "@types/jest": "^24.9.0",
     "husky": "^4.0.10",
     "jest": "^24.9.0",
-    "lint-staged": "^9.4.3",
+    "lint-staged": "^10.0.0",
     "nodemon": "^2.0.2",
     "prettier": "^1.19.1",
     "pretty-quick": "^2.0.1",
@@ -46,8 +46,7 @@
   },
   "lint-staged": {
     "*.{ts}": [
-      "tslint --fix -p .",
-      "git add"
+      "tslint --fix -p ."
     ]
   },
   "prettier": {
