@@ -1,6 +1,6 @@
 {
   "name": "template-typescript-nodemon",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "license": "MIT",
   "description": "Develop TypeScript projects using nodemon",
   "author": "Eric Liu (https://github.com/metonym)",
